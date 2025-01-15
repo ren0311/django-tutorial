@@ -5,6 +5,9 @@ urlpatterns = [
     path("polls/", include("polls.urls")),
     path("admin/", admin.site.urls),
     path("event/", include("event.urls")),
+    path("todo/", include("todo.urls")),
+    path("todo2/", include("todo.urls")),
+
 ]
 
 """
